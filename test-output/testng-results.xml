@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="49345" started-at="2019-05-21T15:20:32Z" finished-at="2019-05-21T15:21:21Z">
+  <suite name="Default suite" duration-ms="30460" started-at="2019-05-21T16:02:09Z" finished-at="2019-05-21T16:02:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="49345" started-at="2019-05-21T15:20:32Z" finished-at="2019-05-21T15:21:21Z">
+    <test name="Default test" duration-ms="30460" started-at="2019-05-21T16:02:09Z" finished-at="2019-05-21T16:02:40Z">
       <class name="Caspor.CasporTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Caspor.CasporTest@132ec19]" name="setup" is-config="true" duration-ms="49228" started-at="2019-05-21T15:20:32Z" finished-at="2019-05-21T15:21:21Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Caspor.CasporTest@132ec19]" name="setup" is-config="true" duration-ms="23921" started-at="2019-05-21T16:02:09Z" finished-at="2019-05-21T16:02:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="abc()[pri:0, instance:Caspor.CasporTest@132ec19]" name="abc" duration-ms="41" started-at="2019-05-21T15:21:21Z" finished-at="2019-05-21T15:21:21Z">
+        <test-method status="PASS" signature="automateTest()[pri:0, instance:Caspor.CasporTest@132ec19]" name="automateTest" duration-ms="6482" started-at="2019-05-21T16:02:33Z" finished-at="2019-05-21T16:02:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- abc -->
+        </test-method> <!-- automateTest -->
       </class> <!-- Caspor.CasporTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

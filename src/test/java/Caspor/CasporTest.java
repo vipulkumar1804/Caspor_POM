@@ -7,6 +7,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import Common.Utilities;
+import Pages.Dashboard;
+import Pages.Login;
 
 public class CasporTest {
 
@@ -22,7 +24,9 @@ public class CasporTest {
 	
 }    
 	  @Test
-	  public void abc() {
+	  public void automateTest() throws IOException {
+		  Login.loginUser(driver);
+		  Dashboard.addPatient(driver);
 		  
 	  }
 }

@@ -5,8 +5,8 @@
     <classes>
       <class name="Caspor.CasporTest">
         <methods>
-          <include name="abc"/>
           <include name="setup"/>
+          <include name="automateTest"/>
         </methods>
       </class> <!-- Caspor.CasporTest -->
     </classes>
