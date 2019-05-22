@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import Common.Utilities;
 import Pages.Dashboard;
 import Pages.Login;
+import Pages.PatientLogin;
 
 public class CasporTest {
 
@@ -24,9 +25,12 @@ public class CasporTest {
 	
 }    
 	  @Test
-	  public void automateTest() throws IOException {
+	  public void automateTest() throws IOException, InterruptedException {
+		  
 		  Login.loginUser(driver);
 		  Dashboard.addPatient(driver);
+		  PatientLogin.patientCredentials(driver);
 		  
+		
 	  }
 }
