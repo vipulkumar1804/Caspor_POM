@@ -1,6 +1,8 @@
 package Pages;
 import java.io.IOException;
 import java.util.List;
+import java.util.UUID;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -103,14 +105,16 @@ List<WebElement> options = driver.findElements(By.xpath(select));
 		driver.findElement(By.xpath(therapyGoal)).sendKeys(Utilities.getCongifProperty("therapyGoal"));
 		driver.findElement(By.xpath(therapist)).sendKeys(Utilities.getCongifProperty("therapist"));
 		driver.findElement(By.xpath(other)).sendKeys(Utilities.getCongifProperty("other"));
-		driver.findElement(By.xpath(emailPat)).sendKeys(Utilities.getCongifProperty("emailPat"));
+		// Generation random email
+		final String randomEmail = randomEmail();
+		driver.findElement(By.xpath(emailPat)).sendKeys(randomEmail);
 		driver.findElement(By.xpath(phoneNum)).sendKeys(Utilities.getCongifProperty("phoneNum"));
 		driver.findElement(By.xpath(street)).sendKeys(Utilities.getCongifProperty("street"));
 		driver.findElement(By.xpath(streetNum)).sendKeys(Utilities.getCongifProperty("streetNum"));
 		driver.findElement(By.xpath(zip)).sendKeys(Utilities.getCongifProperty("zip"));
 		driver.findElement(By.xpath(city)).sendKeys(Utilities.getCongifProperty("city"));
 		
-		// Select country from dropdown
+		// Select country from drop down
 		WebElement element= driver.findElement(By.xpath(country));
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click();", element);
@@ -129,6 +133,10 @@ List<WebElement> options = driver.findElements(By.xpath(select));
 		driver.findElement(By.xpath(button)).click();
 		
 		}
+private static String randomEmail() {
+		
+		return "random-" + UUID.randomUUID().toString() + "@yopmail.com";
+	}
 	}
 
 
