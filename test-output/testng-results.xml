@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="92961" started-at="2019-05-23T02:54:22Z" finished-at="2019-05-23T02:55:55Z">
+  <suite name="Suite" duration-ms="56951" started-at="2019-05-23T06:08:13Z" finished-at="2019-05-23T06:09:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="92961" started-at="2019-05-23T02:54:22Z" finished-at="2019-05-23T02:55:55Z">
+    <test name="CasporTest" duration-ms="56951" started-at="2019-05-23T06:08:13Z" finished-at="2019-05-23T06:09:10Z">
       <class name="Caspor.CasporTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Caspor.CasporTest@c4039c]" name="setup" is-config="true" duration-ms="69287" started-at="2019-05-23T02:54:23Z" finished-at="2019-05-23T02:55:32Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Caspor.CasporTest@c4039c]" name="setup" is-config="true" duration-ms="32161" started-at="2019-05-23T06:08:13Z" finished-at="2019-05-23T06:08:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="automateTest()[pri:0, instance:Caspor.CasporTest@c4039c]" name="automateTest" duration-ms="22871" started-at="2019-05-23T02:55:32Z" finished-at="2019-05-23T02:55:55Z">
+        <test-method status="PASS" signature="automateTest()[pri:0, instance:Caspor.CasporTest@c4039c]" name="automateTest" duration-ms="24441" started-at="2019-05-23T06:08:45Z" finished-at="2019-05-23T06:09:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automateTest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Caspor.CasporTest@c4039c]" name="close" is-config="true" duration-ms="543" started-at="2019-05-23T02:55:55Z" finished-at="2019-05-23T02:55:55Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:Caspor.CasporTest@c4039c]" name="close" is-config="true" duration-ms="290" started-at="2019-05-23T06:09:10Z" finished-at="2019-05-23T06:09:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- Caspor.CasporTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- CasporTest -->
+  </suite> <!-- Suite -->
 </testng-results>

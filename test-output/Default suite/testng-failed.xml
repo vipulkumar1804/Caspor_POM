@@ -5,6 +5,7 @@
     <classes>
       <class name="Caspor.CasporTest">
         <methods>
+          <include name="close"/>
           <include name="setup"/>
           <include name="automateTest"/>
         </methods>
