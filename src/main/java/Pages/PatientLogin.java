@@ -12,6 +12,7 @@ public class PatientLogin {
 	static String logout="//button[@class='mat-menu-item ng-star-inserted']";
 	static String id="//input[@id='mat-input-26']";
 	static String password="//input[@id='mat-input-27']";
+	
 	public static void patientCredentials(WebDriver driver) {
 		
 		String idPatient=driver.findElement(By.xpath(patientID)).getText();
